@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "English Helper",
+  "version": "1.0",
+  "description": "Belajar bahasa Inggris dengan suara dan offline support.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["verbs.json", "style.css", "icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

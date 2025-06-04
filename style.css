@@ -1,0 +1,12 @@
+.english-helper-popup {
+  position: fixed;
+  background-color: #f0f9ff;
+  color: #333;
+  border: 2px solid #007acc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+}

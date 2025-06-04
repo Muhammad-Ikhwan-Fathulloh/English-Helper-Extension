@@ -1,0 +1,22 @@
+{
+  "run": {
+    "definition": "move at a speed faster than a walk",
+    "partOfSpeech": "verb"
+  },
+  "play": {
+    "definition": "engage in activity for enjoyment",
+    "partOfSpeech": "verb"
+  },
+  "open": {
+    "definition": "move or adjust to allow access",
+    "partOfSpeech": "verb"
+  },
+  "eat": {
+    "definition": "put food into the mouth and chew",
+    "partOfSpeech": "verb"
+  },
+  "write": {
+    "definition": "mark letters or words on a surface",
+    "partOfSpeech": "verb"
+  }
+}
